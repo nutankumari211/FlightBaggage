@@ -1,0 +1,55 @@
+.bag-form-container {
+    max-width: 500px;
+    margin: 0 auto;
+    margin-top: 22px;
+    padding: 37px;
+    background-color: darkturquoise;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(11, 112, 228, 0.1);
+    transition: background-color 0.3s ease; 
+  }
+  
+  .bag-form-container:hover {
+    background-color: rgb(36, 218, 250);
+  }
+  
+  h2 {
+    margin-top: 0;
+  }
+  
+
+  
+  .bag-ids-textarea {
+    width: 100%;
+    min-height: 100px; 
+    padding: 2px;
+    background-color: rgb(36, 218, 250);
+    margin-bottom: 15px;
+    border: 1px solid #121caf;
+    border-radius: 5px;
+    resize: vertical;
+  }
+  
+  .bag-ids-textarea:hover{
+    background-color: darkturquoise;
+  }
+
+  .submit-button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
+  }
+  
+  .submit-button:hover {
+    background-color: #0056b3; 
+  }
+  
+  .submit-button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  

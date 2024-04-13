@@ -1,0 +1,96 @@
+
+.bag-statistics-container {
+ 
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .bag-statistics-container h2 {
+    margin-bottom: 10px;
+  }
+  
+  .statistic-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .statistic-label {
+    font-weight: bold;
+  }
+  
+  .statistic-value {
+    color: #007bff; 
+  }
+  
+  .flight-name {
+    background-color: darkturquoise;
+    color: #fff;
+    padding: 5px 10px;
+    margin: 5px;
+    border-radius: 5px;
+    display: inline-block;
+    font-weight: bold;
+  }
+  
+  .flight-info {
+    margin-bottom: 10px;
+    color: blue; 
+    font-size: 16px; 
+    font-weight: bold; 
+    text-transform: uppercase; 
+    letter-spacing: 1px; 
+    text-shadow: 1px 1px 2px rgba(215, 137, 137, 0.2); 
+  }
+  
+  .airline-distribution-table {
+    margin-bottom: 20px;
+  }
+  
+  .airline-distribution-table table {
+    width: 100%;
+    border-collapse: collapse;
+  
+  }
+  
+  .airline-distribution-table th,
+  .airline-distribution-table td {
+    padding: 8px;
+    border: 1px solid #addeec;
+    text-align: left;
+  }
+  
+  .airline-distribution-table th {
+    background-color: rgb(37, 106, 244);
+  }
+  
+  tr{
+    background-color: darkturquoise;
+  }
+
+  th{
+    color:white;
+  }
+
+  .flight-distribution-table {
+    margin-bottom: 20px;
+  }
+  
+  .flight-distribution-table table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .flight-distribution-table th
+   {
+    background-color: rgb(37, 106, 244);
+    padding: 8px;
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  .flight-distribution-table td{
+    padding: 8px;
+    border: 1px solid #ddd;
+    text-align: left;
+  }

@@ -1,0 +1,17 @@
+.footer {
+    background: linear-gradient(180deg, rgba(19, 94, 200, 0.8), rgba(19, 94, 200, 1)); 
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    transition: background-color 0.3s ease; 
+  }
+  
+  .footer:hover {
+    background: linear-gradient(180deg, rgba(19, 94, 200, 1), rgba(19, 94, 200, 0.8)); 
+  }
+  
+  .footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
